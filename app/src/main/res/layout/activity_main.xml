@@ -6,7 +6,6 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity"
     android:orientation="vertical"
-    android:background=""
     android:padding="20dp">
 
     <LinearLayout
@@ -33,7 +32,8 @@
             android:layout_width="wrap_content"
             android:layout_height="154dp"
             android:padding="5dp"
-            android:src="@drawable/logo" />
+            android:src="@drawable/logo"
+            />
 
     </LinearLayout>
 
@@ -48,7 +48,8 @@
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="1 Jogador"/>
+            android:text="1 Jogador"
+            android:onClick="umJogador"/>
 
         <Button
             android:layout_width="match_parent"
